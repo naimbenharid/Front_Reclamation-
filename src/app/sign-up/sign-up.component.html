@@ -1,0 +1,16 @@
+<div class="container">
+  <h2>Employer Sign Up</h2>
+
+  <div class="form-group">
+    <label for="username">Username:</label>
+    <input type="text" class="form-control" id="username" [(ngModel)]="employerSignup.name" required>
+  </div>
+
+
+  <div class="form-group">
+    <label for="password">Password:</label>
+    <input type="password" class="form-control" id="password" [(ngModel)]="employerSignup.password" required>
+  </div>
+
+  <button class="btn btn-primary" (click)="signup(employerSignup)">Sign Up</button>
+</div>

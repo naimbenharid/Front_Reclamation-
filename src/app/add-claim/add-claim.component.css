@@ -1,0 +1,84 @@
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(to bottom, #007bff, #0056b3);
+  color: #ffffff;
+  text-align: center;
+  font-family: Arial, sans-serif
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-family: Arial, sans-serif,
+ 
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="date"],
+input[type="text"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.8);
+  transition: all 0.3s ease;
+}
+
+input[type="date"]:hover,
+input[type="date"]:focus,
+input[type="text"]:hover,
+input[type="text"]:focus {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+/* ... (autres styles) ... */
+
+button {
+    width: 150px; /* Ajustez la largeur du bouton selon vos besoins */
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background: linear-gradient(to bottom, #007bff, #0056b3);
+    color: #ffffff;
+    transition: background 0.3s ease;
+    margin-top: 10px;
+    font-family: Arial, sans-serif
+
+
+  }
+  
+  button:hover {
+    background: linear-gradient(to bottom, #0056b3, #003366);
+  }
+  
+  textarea {
+    width: calc(100% - 20px);
+    height: 100px; /* Hauteur du textarea, ajustez selon vos besoins */
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.8);
+    transition: all 0.3s ease;
+  }
+  
+  textarea:hover, textarea:focus {
+    background-color: rgba(255, 255, 255, 1);
+  }

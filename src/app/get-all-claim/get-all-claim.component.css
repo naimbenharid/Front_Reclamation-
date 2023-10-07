@@ -1,0 +1,58 @@
+.container {
+  margin: 20px;
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #212529;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+  transition: background-color 0.3s ease; /* Ajout de l'animation sur le changement de couleur */
+}
+
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.table tbody + tbody {
+  border-top: 2px solid #91bde8;
+}
+
+.table-sm th,
+.table-sm td {
+  padding: 0.3rem;
+}
+
+.table-bordered {
+  border: 1px solid #dee2e6;
+}
+
+.table-bordered th,
+.table-bordered td {
+  border: 1px solid #dee2e6;
+}
+
+.table-bordered thead th,
+.table-bordered thead td {
+  border-bottom-width: 2px;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(60, 60, 212, 0.1); /* Dégradé de blanc à bleu */
+}
+
+.table-striped tbody tr:nth-of-type(even) {
+  background-color: rgba(0, 255, 0, 0.1); /* Dégradé de blanc à vert */
+}
+
+.table-hover tbody tr:hover {
+  background-color: rgba(169, 169, 169, 0.3); /* Gris avec opacité lors du survol */
+}

@@ -1,0 +1,60 @@
+<!--<body>
+  <div class="container">
+    
+    <h3>Existing Claims</h3>
+    <ul class="list-group">
+      <li class="list-group-item" *ngFor="let claim of claims">
+        <strong>Claim Date:</strong> {{ claim.claimDate }}<br>
+        <strong>Claim Message:</strong> {{ claim.claimMsg }}<br>
+        <strong>Employer Full Name:</strong> {{ claim.employerFullName }}
+        
+      </li>
+    </ul>
+    <br>
+  </div>
+</body>  -->
+     <!--<div class="container">
+    <h2>Claims</h2>
+  
+  Liste des réclamations existantes 
+    <h3>Existing Claims</h3>
+    <table class="table table-bordered">
+      <thead class="thead-light">
+        <tr>
+          <th>Employer Full Name</th>
+          <th>Claim Date</th>
+          <th>Claim Message</th>
+          
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let claim of claims; let i = index" [ngStyle]="getRowStyle(i)">
+          <td>{{ claim.claimDate }}</td>
+          <td>{{ claim.claimMsg }}</td>
+          <td>{{ claim.employerFullName }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
+-->
+<div class="container">
+  <h3>Existing Claims</h3>
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Claim Date</th>
+        <th scope="col">Claim Message</th>
+        <th scope="col">Employer Full Name</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let claim of claims">
+        <td>{{ claim.claimDate }}</td>
+        <td>{{ claim.claimMsg }}</td>
+        <td>{{ claim.employerFullName }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
