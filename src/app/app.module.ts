@@ -11,6 +11,7 @@ import { GetAllClaimComponent } from './get-all-claim/get-all-claim.component';
 import { FormsModule } from '@angular/forms';
 
 import { HttpClientModule } from '@angular/common/http';
+import { ResponsibleSigninComponent } from './responsible-signin/responsible-signin.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { HttpClientModule } from '@angular/common/http';
     SignInComponent,
     SignUpComponent,
     AddClaimComponent,
-    GetAllClaimComponent
+    GetAllClaimComponent,
+    ResponsibleSigninComponent
   ],
   imports: [
     BrowserModule,

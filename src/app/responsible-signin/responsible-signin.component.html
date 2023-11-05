@@ -1,0 +1,16 @@
+<div class="container">
+  <h2> Responsible Sign In</h2>
+
+  <div class="form-group">
+    <label for="username">Username:</label>
+    <input type="text" class="form-control" id="username" [(ngModel)]="repoSignin.name" required>
+  </div>
+
+  <div class="form-group">
+    <label for="password">Password:</label>
+    <input type="password" class="form-control" id="password" [(ngModel)]="repoSignin.password" required>
+  </div>
+
+  <button class="btn btn-primary" (click)="signin(repoSignin)">Sign In</button>
+</div>
+
